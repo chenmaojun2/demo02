@@ -1,5 +1,8 @@
 package cn.tedu;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -12,5 +15,16 @@ public class HelloWorld {
             sum += i;
         }
         System.out.println("总数为: " + sum);
+
+
+        ArrayList<String> list = new ArrayList<String>();
+
+
+        String s = "hao123";
+        String s1 = "jd321";
+        list.add(s);
+        list.add(s1);
+        System.out.println(list);
+
     }
 }
